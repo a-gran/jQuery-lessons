@@ -4,3 +4,44 @@
   padding: 0;
 }
 
+.section {
+  max-width: 400px;
+}
+
+.first {
+  line-height: 36px;
+  width: 300px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.foto-female,
+.foto-male {
+  display: none;
+}
+

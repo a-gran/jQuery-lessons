@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>jQuery</title>
   <link rel="stylesheet" href="index.css">
   <script src="info/jquery-3.4.1.min.js" defer></script>
-  <script src="index.js" defer></script>
+  <!-- <script src="index1.js" defer></script> -->
+  <script src="index2.js" defer></script>
 </head>
+
 <body>
 
-  <div id="test" onclick="$('#test').hide()">Test</div>
-  
+  <!-- <div id="test" onclick="$('#test').hide()">Test</div> -->
+
+  <div id="test">Test</div>
+
+  <ul id="menu">
+    <li><a href="#">Link1</a></li>
+    <li><a href="#">Link2</a></li>
+    <li><a href="#">Link3</a></li>
+    <li><a href="#">Link4</a></li>
+    <li><a href="#">Link5</a></li>
+  </ul>
+
+  <br>
+
+  <section class="section">
+
+    <p class="first">Paragraf</p>
+    <img src="img/1.jpg" alt="foto1">
+    <img src="img/2.jpg" alt="foto2" title="small">
+    <img src="img/3.jpg" alt="foto3" title="another">
+    <hr>
+    <article class="first">Article</article>
+    <hr>
+    <div class="first">Div1</div>
+    <div class="first">Div2</div>
+    <div class="first">Div3</div>
+
+  </section>
+
+  <br>
+
+  <form name="" id="form">
+
+    <span id="message">Какой у Вас пол!</span>
+    <br>
+    <input type="button" id="done" value="Готово" onclick="valid()">
+    <br><br>
+    
+    <label for="female">Женский
+      <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <br>
+      <img class="foto-female" src="img/2.jpg" alt="foto1">
+      <br>
+    </label>
+
+    <label for="male">Мужской
+      <br>
+      <input type="radio" name="gender" value="male" id="male">
+      <br>
+      <img class="foto-male" src="img/1.jpg" alt="foto2">
+      <br>
+    </label>
+
+  </form>
+
+
+
 </body>
+
 </html>
