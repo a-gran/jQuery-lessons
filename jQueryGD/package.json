@@ -1,0 +1,11 @@
+{
+  "name": "jQuery",
+  "version": "1.0.0",
+  "description": "lessons",
+  "main": "index.js",
+  "author": "ash <awebdeff@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
